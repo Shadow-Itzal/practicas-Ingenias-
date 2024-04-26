@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <!-- idea dada por ChatGPT:
+
+    <form action="submit_form" method="post">
+        <label for="nombre">Nombre: </label>
+        <input type="text" id="nombre" name="nombre">
+        <br>
+        <br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <br>
+
+        <label for="mensaje">Mensaje: </label>
+        <textarea name="mensaje" id="mensaje" cols="50" rows="4"></textarea>
+        <br>
+        <br>
+
+        <input type="submit" value="enviar"> 
+
+    </form> -->
+
+    <!-- ----------------------- -->
+
+    <!-- boton, atributo value 
+    <form>
+        <input type="submit" value="Enviar formulario">
+        <input type="reset" value="Limpiar formulario">
+        <input type="button" value="Sin acciones">
+    </form> -->
+    <!-- ----------------------- -->
+
+    <!-- boton de radio
+    <form>
+        <div>Argentina</div>
+        <input type="radio" name="pais" value="Argentina">
+        <div>Uruguay</div>
+        <input type="radio" name="pais" value="Uruguay">
+        <div>Chile</div>
+        <input type="radio" name="pais" value="Chile">
+    </form> -->
+    <!-- ----------------------- -->
+
+    <!-- casilla de chequeo
+    <form>
+        <div>Acepto términos y condiciones</div>
+        <input type="checkbox" name="aceptar" value="1">
+    </form> -->
+    <!-- ----------------------- -->
+
+    <!-- Menu desplegable
+    <form>
+        <select name="talles">
+            <option value="L">Large</option>
+            <option value="M">Medium</option>
+            <option value="S">Small</option>
+        </select>
+    </form> -->
+    <!-- ----------------------- -->
+
+    <!-- <details>Detalle</details> -->
+    <!-- ----------------------- -->
+
+    <table>Informacion Personal:
+    <form action="submit_form" method="post">
+
+        <!-- Producto - boton radio -->
+        <p>Producto </p>
+        <div>
+            <input type="radio" name="producto" value="pantalones">Pantalones
+            <input type="radio" name="producto" value="remeras">Remeras
+            <input type="radio" name="producto" value="buzos">Buzos
+        </div>         
+        <br>
+        
+        
+        <!-- nombre y apellido -->
+        <div>
+            <label for="nombre">Nombre: </label><br>
+            <input type="text" id="nombre" name="nombre" placeholder="escribe el nombre">
+        </div>
+
+        <div>
+            <label for="apellido">Apellido: </label> <br>
+            <input type="text" id="nombre" name="apellido" placeholder="escribe el apellido">
+        </div>
+
+        <br>
+
+        <!-- Talles - menu desplegable-->
+        <div>
+            Talle:
+            <select name="talles">  
+                <option value="L">Large</option>
+                <option value="M">Medium</option>
+                <option value="S">Small</option>
+            </select>
+        </div>
+
+        <br>
+        <input type="reset" value="Limpiar">
+        <input type="submit" value="Enviar">
+
+    </form> 
+    </table>
+
+
+</body>
+</html>
